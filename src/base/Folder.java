@@ -7,7 +7,14 @@ import java.util.Collections;
 import java.util.Iterator;
 import java.util.List;
 
-public class Folder implements Comparable<Folder>{
+import java.io.Serializable;
+
+public class Folder implements Comparable<Folder>, Serializable{
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+	
 	private String name;
 	private ArrayList<Note> notes;
 	
