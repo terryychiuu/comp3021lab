@@ -93,5 +93,10 @@ public class TextNote extends Note implements Serializable{
 		}
 		
 	}
+	
+	//
+	public void updateContent(String content) {
+		this.content = content;
+	}
 }
 
